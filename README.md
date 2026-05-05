@@ -1,7 +1,7 @@
-### Hola 👋, soy Crhonos-JAProjects
+### Hola 👋, soy Iván Jurado Álvarez
 
 ¡Bienvenido a mi perfil de GitHub! Soy un apasionado programador con experiencia en PHP y .NET Core, y actualmente estoy inmerso en el aprendizaje de Angular.
-Siempre estoy buscando expandir mis conocimientos y habilidades, y estoy abierto a aprender nuevos lenguajes y tecnologías.
+Siempre estoy buscando expandir mis conocimientos y habilidades, estoy abierto a aprender nuevos lenguajes y tecnologías y trabajando en proyectos propios bajo la marca JAProjects.
 
 ### Acerca de mí
 - 👨‍💻 Tengo experiencia en PHP y .NET Core.
