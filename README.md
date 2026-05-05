@@ -9,7 +9,6 @@ Siempre estoy buscando expandir mis conocimientos y habilidades, estoy abierto a
 - 👀 Me interesa seguir aprendiendo y creciendo como desarrollador.
 - 💼 Estoy buscando oportunidades para colaborar en proyectos interesantes.
 - 📫 Puedes contactarme a través de mi correo electrónico ivan97.business@gmail.com
-- 😄 Pronombres: él/him
 - ⚡ Dato curioso: ¡Me encanta resolver acertijos y rompecabezas en mi tiempo libre!
 
 ### Tecnologías y herramientas
