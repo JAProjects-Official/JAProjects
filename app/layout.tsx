@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const inter = Inter({
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     template: '%s | JAProjects',
   },
   description:
-    'Desarrollador web especializado en .NET Core, PHP, JavaScript y SQL. Creando soluciones empresariales escalables, APIs robustas y aplicaciones web modernas. Disponible para proyectos.',
+    'Desarrollador web especializado en .NET Core, PHP, JavaScript y SQL. Creando soluciones empresariales escalables, APIs robustas y aplicaciones web modernas.',
 
   keywords: [
     '.NET Core',
@@ -35,12 +36,12 @@ export const metadata: Metadata = {
     'Freelance',
   ],
 
-  authors: [{ name: 'Iván Jurado Álvarez', url: 'https://japrojects.dev' }],
+  authors: [{ name: 'Iván Jurado Álvarez', url: 'https://japrojects.vercel.app' }],
   creator: 'Iván Jurado Álvarez',
 
-  metadataBase: new URL('https://japrojects.dev'),
+  // 🔥 IMPORTANTE: dominio correcto de Vercel
+  metadataBase: new URL('https://japrojects.vercel.app'),
 
-  // ⭐ FAVICON CORRECTO
   icons: {
     icon: '/images/logo-dark.png',
     shortcut: '/images/logo-dark.png',
@@ -54,6 +55,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_ES',
     siteName: 'JAProjects',
+    url: 'https://japrojects.vercel.app',
   },
 
   robots: {
@@ -71,7 +73,6 @@ export default function RootLayout({
     <html
       lang="es"
       className={`${inter.variable} ${jetbrainsMono.variable}`}
-      suppressHydrationWarning
     >
       <body className="font-sans antialiased bg-background">
         <ThemeProvider
@@ -81,6 +82,9 @@ export default function RootLayout({
           disableTransitionOnChange={false}
         >
           {children}
+
+          {/* 📊 VERCEL ANALYTICS */}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
