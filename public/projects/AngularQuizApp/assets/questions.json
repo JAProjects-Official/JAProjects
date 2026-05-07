@@ -1,0 +1,1087 @@
+{
+    "questions": [
+        {
+            "questionText": "¿Cuántos litros de sangre tiene una persona adulta?",
+            "options": [
+                {
+                    "text": "Entre 4 y 6 litros",
+                    "correct": true
+                },
+                {
+                    "text": "Entre 2 y 4 litros"
+                },
+                {
+                    "text": "7 litros"
+                },
+                {
+                    "text": "10 litros"
+                }
+            ],
+            "explanation": "La cantidad de sangre varía de persona a persona. El volumen de sangre representa del 7 al 8% del peso corporal. De esta forma, en una persona adulta que pesa entre 50 y 80 kilogramos, puede haber entre 4 y 6 litros de sangre."
+        },
+        {
+            "questionText": "¿Cuál es el país más grande y el más pequeño del mundo?",
+            "options": [
+                {
+                    "text": "Estados Unidos y Malta"
+                },
+                {
+                    "text": "Canadá y Mónaco"
+                },
+                {
+                    "text": "China y Nauru"
+                },
+                {
+                    "text": "Rusia y Vaticano",
+                    "correct": true
+                }
+            ],
+            "explanation": "Rusia es el país mas grande del mundo con un área de 17 millones de km2, mientras el Vaticano tiene apenas 0,44 km2."
+        },
+        {
+            "questionText": "La sal común está formada por dos elementos, ¿cuáles son?",
+            "options": [
+                {
+                    "text": "Sodio y potasio"
+                },
+                {
+                    "text": "Sodio y cloro",
+                    "correct": true
+                },
+                {
+                    "text": "Sodio y carbono"
+                },
+                {
+                    "text": "Potasio y cloro"
+                }
+            ],
+            "explanation": "La fórmula química de la sal común o cloruro de sodio es NaCl, y está formada por los elementos sodio (Na) y cloro (Cl)."
+        },
+        {
+            "questionText": "¿Cuánto tiempo tarda la luz del Sol en llegar a la Tierra?",
+            "options": [
+                {
+                    "text": "12 minutos"
+                },
+                {
+                    "text": "8 minutos",
+                    "correct": true
+                },
+                {
+                    "text": "8 segundos"
+                },
+                {
+                    "text": "12 horas"
+                }
+            ],
+            "explanation": "El tiempo que tarda la luz del Sol en llegar a la Tierra se calcula dividiendo la distancia que hay entre el Sol y la Tierra, aproximadamente 150 000 000 km, entre la velocidad de la luz, que es 300 000 km/s:150 000 000 km÷300 000 km/s= 500 s; 500 s ÷ 60 s/min = 8,3 minutos."
+        },
+        {
+            "questionText": "¿En qué periodo de la prehistoria fue descubierto el fuego?",
+            "options": [
+                {
+                    "text": "Paleolítico",
+                    "correct": true
+                },
+                {
+                    "text": "Neolítico"
+                },
+                {
+                    "text": "Edad de piedra"
+                },
+                {
+                    "text": "Edad de los metales"
+                }
+            ],
+            "explanation": "Fue en el Paleolítico que los seres humanos empezaron a usar el fuego, cuando aprendieron que era posible producir fuego al frotar pedazos de madera y piedra."
+        },
+        {
+            "questionText": "¿Cuál es la montaña más alta del continente americano?",
+            "options": [
+                {
+                    "text": "Monte Everest"
+                },
+                {
+                    "text": "Pico Neblina"
+                },
+                {
+                    "text": "Monte Fuji"
+                },
+                {
+                    "text": "Aconcagua",
+                    "correct": true
+                }
+            ],
+            "explanation": "El Aconcagua se encuentra en la provincia de Mendoza, en Argentina, en la cordillera de Los Andes. Mide 6962 metros sobre el nivel del mar."
+        },
+        {
+            "questionText": "¿En qué océano queda Madagascar?",
+            "options": [
+                {
+                    "text": "Océano Antártico"
+                },
+                {
+                    "text": "Océano Índico",
+                    "correct": true
+                },
+                {
+                    "text": "Océano Ártico"
+                },
+                {
+                    "text": "Océano Pacífico"
+                }
+            ],
+            "explanation": "Madagascar es un país insular localizado en el sureste de África, bañado por el océano Índico. Su capital es Antananarivo."
+        },
+        {
+            "questionText": "¿Quién pintó la bóveda de la capilla sixtina?",
+            "options": [
+                {
+                    "text": "Miguel Angel",
+                    "correct": true
+                },
+                {
+                    "text": "Leonardo da Vinci"
+                },
+                {
+                    "text": "Rafael"
+                },
+                {
+                    "text": "Boticelli"
+                }
+            ],
+            "explanation": "Miguel Angel (1475-1564) fue un pintor, escultor y arquitecto italiano, responsable por pintar la bóveda de la capilla sixtina en el Palacio Apostólico de la Ciudad del Vaticano, entre 1508 y 1512."
+        },
+        {
+            "questionText": "¿Cuál de estos países tiene como idioma oficial el francés?",
+            "options": [
+                {
+                    "text": "Haití",
+                    "correct": true
+                },
+                {
+                    "text": "Suecia"
+                },
+                {
+                    "text": "Mauritania"
+                },
+                {
+                    "text": "Andorra"
+                }
+            ],
+            "explanation": "Haití (capital Puerto Príncipe) es uno de los dos países de América que tiene como uno de sus idiomas oficiales el francés; el otro es Canadá."
+        },
+        {
+            "questionText": "¿Cuál es el metal más precioso?",
+            "options": [
+                {
+                    "text": "Platino"
+                },
+                {
+                    "text": "Oro",
+                    "correct": true
+                },
+                {
+                    "text": "Plata"
+                },
+                {
+                    "text": "Paladio"
+                }
+            ],
+            "explanation": "El oro es considerado el metal más precioso debido a su rareza, durabilidad y demanda histórica."
+        },
+        {
+            "questionText": "¿Cuál es el río más largo del mundo?",
+            "options": [
+                {
+                    "text": "Río Amazonas",
+                    "correct": true
+                },
+                {
+                    "text": "Río Nilo"
+                },
+                {
+                    "text": "Río Mississippi"
+                },
+                {
+                    "text": "Río Yangtsé"
+                }
+            ],
+            "explanation": "El río Amazonas, ubicado en Sudamérica, es el río más largo del mundo con una longitud de aproximadamente 6,400 kilómetros."
+        },
+        {
+            "questionText": "¿Cuál es el compuesto químico principal del aire que respiramos?",
+            "options": [
+                {
+                    "text": "Dióxido de carbono"
+                },
+                {
+                    "text": "Nitrógeno",
+                    "correct": true
+                },
+                {
+                    "text": "Oxígeno"
+                },
+                {
+                    "text": "Argón"
+                }
+            ],
+            "explanation": "El nitrógeno es el componente principal del aire que respiramos, representando aproximadamente el 78% de su composición."
+        },
+        {
+            "questionText": "¿Cuál es el hueso más largo del cuerpo humano?",
+            "options": [
+                {
+                    "text": "Húmero"
+                },
+                {
+                    "text": "Fémur",
+                    "correct": true
+                },
+                {
+                    "text": "Tibia"
+                },
+                {
+                    "text": "Fibula"
+                }
+            ],
+            "explanation": "El fémur es el hueso más largo y resistente del cuerpo humano. Se encuentra en la parte superior de la pierna."
+        },
+        {
+            "questionText": "¿Cuál es el planeta más grande del sistema solar?",
+            "options": [
+                {
+                    "text": "Júpiter",
+                    "correct": true
+                },
+                {
+                    "text": "Saturno"
+                },
+                {
+                    "text": "Neptuno"
+                },
+                {
+                    "text": "Urano"
+                }
+            ],
+            "explanation": "Júpiter es el planeta más grande de nuestro sistema solar, con un diámetro aproximadamente 11 veces mayor que el de la Tierra."
+        },
+        {
+            "questionText": "¿Qué instrumento se utiliza para medir la presión atmosférica?",
+            "options": [
+                {
+                    "text": "Termómetro"
+                },
+                {
+                    "text": "Higrómetro"
+                },
+                {
+                    "text": "Barómetro",
+                    "correct": true
+                },
+                {
+                    "text": "Anemómetro"
+                }
+            ],
+            "explanation": "El barómetro se utiliza para medir la presión atmosférica. Un barómetro de mercurio es uno de los tipos más comunes."
+        },
+        {
+            "questionText": "¿Cuál es el rango de frecuencia del sonido que el oído humano puede escuchar?",
+            "options": [
+                {
+                    "text": "20-20,000 hercios",
+                    "correct": true
+                },
+                {
+                    "text": "50-50,000 hercios"
+                },
+                {
+                    "text": "10-15,000 hercios"
+                },
+                {
+                    "text": "30-25,000 hercios"
+                }
+            ],
+            "explanation": "El rango de frecuencia del sonido que el oído humano puede escuchar va desde aproximadamente 20 hasta 20,000 hercios."
+        },
+        {
+            "questionText": "¿Cuál es el proceso por el cual las plantas producen su propio alimento?",
+            "options": [
+                {
+                    "text": "Fotosíntesis",
+                    "correct": true
+                },
+                {
+                    "text": "Respiración"
+                },
+                {
+                    "text": "Digestión"
+                },
+                {
+                    "text": "Evaporación"
+                }
+            ],
+            "explanation": "La fotosíntesis es el proceso por el cual las plantas utilizan la luz solar para convertir el dióxido de carbono y el agua en glucosa y oxígeno."
+        },
+        {
+            "questionText": "¿Cuál es el nombre de la estrella más cercana a la Tierra?",
+            "options": [
+                {
+                    "text": "Alfa Centauri"
+                },
+                {
+                    "text": "Sol",
+                    "correct": true
+                },
+                {
+                    "text": "Betelgeuse"
+                },
+                {
+                    "text": "Vega"
+                }
+            ],
+            "explanation": "El Sol es la estrella más cercana a la Tierra, ubicada a una distancia aproximada de 149,6 millones de kilómetros."
+        },
+        {
+            "questionText": "¿Cuál es el río más largo del mundo?",
+            "options": [
+                {
+                    "text": "Amazonas",
+                    "correct": true
+                },
+                {
+                    "text": "Nilo"
+                },
+                {
+                    "text": "Yangtsé"
+                },
+                {
+                    "text": "Misisipi"
+                }
+            ],
+            "explanation": "El río Amazonas, con una longitud aproximada de 6,400 kilómetros, es el más largo del mundo."
+        },
+        {
+            "questionText": "¿Cuál es el animal más grande del mundo?",
+            "options": [
+                {
+                    "text": "Elefante africano"
+                },
+                {
+                    "text": "Ballena azul",
+                    "correct": true
+                },
+                {
+                    "text": "Elefante asiático"
+                },
+                {
+                    "text": "Jirafa"
+                }
+            ],
+            "explanation": "La ballena azul es el animal más grande del mundo, con una longitud promedio de 30 metros y un peso de hasta 200 toneladas."
+        },
+        {
+            "questionText": "¿Cuál es el metal más abundante en la corteza terrestre?",
+            "options": [
+                {
+                    "text": "Hierro"
+                },
+                {
+                    "text": "Aluminio",
+                    "correct": true
+                },
+                {
+                    "text": "Oro"
+                },
+                {
+                    "text": "Plata"
+                }
+            ],
+            "explanation": "El aluminio es el metal más abundante en la corteza terrestre, constituyendo aproximadamente el 8% de la misma."
+        },
+        {
+            "questionText": "¿Qué componente químico tiene la fórmula H2O?",
+            "options": [
+                {
+                    "text": "Dióxido de carbono"
+                },
+                {
+                    "text": "Oxígeno y hidrógeno",
+                    "correct": true
+                },
+                {
+                    "text": "Agua oxigenada"
+                },
+                {
+                    "text": "Hidrógeno"
+                }
+            ],
+            "explanation": "La fórmula H2O representa el agua, compuesta por dos átomos de hidrógeno y uno de oxígeno."
+        },
+        {
+            "questionText": "¿Cuántos planetas hay en nuestro sistema solar?",
+            "options": [
+                {
+                    "text": "7"
+                },
+                {
+                    "text": "8",
+                    "correct": true
+                },
+                {
+                    "text": "9"
+                },
+                {
+                    "text": "10"
+                }
+            ],
+            "explanation": "Nuestro sistema solar tiene 8 planetas: Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno."
+        },
+        {
+            "questionText": "¿Cuál es el hueso más largo del cuerpo humano?",
+            "options": [
+                {
+                    "text": "Fémur",
+                    "correct": true
+                },
+                {
+                    "text": "Tibia"
+                },
+                {
+                    "text": "Húmero"
+                },
+                {
+                    "text": "Fibula"
+                }
+            ],
+            "explanation": "El fémur es el hueso más largo y fuerte del cuerpo humano, se encuentra en la parte superior de la pierna."
+        },
+        {
+            "questionText": "¿Cuál es la capital de Francia?",
+            "options": [
+                {
+                    "text": "Roma"
+                },
+                {
+                    "text": "Berlín"
+                },
+                {
+                    "text": "Londres"
+                },
+                {
+                    "text": "París",
+                    "correct": true
+                }
+            ],
+            "explanation": "París es la capital de Francia, conocida por su rica historia, arte, moda y gastronomía."
+        },
+        {
+            "questionText": "¿Quién escribió 'Don Quijote de la Mancha'?",
+            "options": [
+                {
+                    "text": "Miguel de Cervantes",
+                    "correct": true
+                },
+                {
+                    "text": "Gabriel García Márquez"
+                },
+                {
+                    "text": "William Shakespeare"
+                },
+                {
+                    "text": "Federico García Lorca"
+                }
+            ],
+            "explanation": "'Don Quijote de la Mancha' fue escrito por Miguel de Cervantes, considerado uno de los mayores escritores de la literatura española."
+        },
+        {
+            "questionText": "¿Cuál es el órgano más grande del cuerpo humano?",
+            "options": [
+                {
+                    "text": "Pulmón"
+                },
+                {
+                    "text": "Cerebro"
+                },
+                {
+                    "text": "Hígado",
+                    "correct": true
+                },
+                {
+                    "text": "Corazón"
+                }
+            ],
+            "explanation": "El hígado es el órgano más grande del cuerpo humano, desempeña funciones vitales como la desintoxicación y la producción de bilis."
+        },
+        {
+            "questionText": "¿En qué año llegó el hombre a la luna?",
+            "options": [
+                {
+                    "text": "1967"
+                },
+                {
+                    "text": "1969",
+                    "correct": true
+                },
+                {
+                    "text": "1973"
+                },
+                {
+                    "text": "1981"
+                }
+            ],
+            "explanation": "El hombre llegó a la luna por primera vez el 20 de julio de 1969, durante la misión del Apolo 11."
+        },
+        {
+            "questionText": "¿Quién pintó 'La última cena'?",
+            "options": [
+                {
+                    "text": "Leonardo da Vinci",
+                    "correct": true
+                },
+                {
+                    "text": "Pablo Picasso"
+                },
+                {
+                    "text": "Vincent van Gogh"
+                },
+                {
+                    "text": "Michelangelo"
+                }
+            ],
+            "explanation": "'La última cena' fue pintada por Leonardo da Vinci, uno de los más grandes genios del Renacimiento."
+        },
+        {
+            "questionText": "¿Cuál es el océano más grande del mundo?",
+            "options": [
+                {
+                    "text": "Océano Pacífico",
+                    "correct": true
+                },
+                {
+                    "text": "Océano Atlántico"
+                },
+                {
+                    "text": "Océano Índico"
+                },
+                {
+                    "text": "Océano Ártico"
+                }
+            ],
+            "explanation": "El Océano Pacífico es el océano más grande y profundo del mundo, cubriendo más del 30% de la superficie de la Tierra."
+        },
+        {
+            "questionText": "¿Cuál es la capital de Italia?",
+            "options": [
+                {
+                    "text": "Madrid"
+                },
+                {
+                    "text": "Roma",
+                    "correct": true
+                },
+                {
+                    "text": "París"
+                },
+                {
+                    "text": "Atenas"
+                }
+            ],
+            "explanation": "Roma es la capital de Italia, conocida por su rica historia y su importancia en el mundo antiguo como centro del Imperio Romano."
+        },
+        {
+            "questionText": "¿Quién escribió la obra 'Romeo y Julieta'?",
+            "options": [
+                {
+                    "text": "Miguel de Cervantes"
+                },
+                {
+                    "text": "William Shakespeare",
+                    "correct": true
+                },
+                {
+                    "text": "Gabriel García Márquez"
+                },
+                {
+                    "text": "Federico García Lorca"
+                }
+            ],
+            "explanation": "'Romeo y Julieta' fue escrita por William Shakespeare, uno de los más grandes dramaturgos de la literatura universal."
+        },
+        {
+            "questionText": "¿Cuál es el metal más duro en la Tierra?",
+            "options": [
+                {
+                    "text": "Hierro"
+                },
+                {
+                    "text": "Titanio"
+                },
+                {
+                    "text": "Diamante",
+                    "correct": true
+                },
+                {
+                    "text": "Platino"
+                }
+            ],
+            "explanation": "El diamante es el metal más duro en la Tierra, conocido por su extrema dureza y su uso en joyería y herramientas de corte."
+        },
+        {
+            "questionText": "¿Cuál es el océano más profundo del mundo?",
+            "options": [
+                {
+                    "text": "Océano Pacífico"
+                },
+                {
+                    "text": "Océano Índico"
+                },
+                {
+                    "text": "Océano Atlántico"
+                },
+                {
+                    "text": "Océano Ártico",
+                    "correct": true
+                }
+            ],
+            "explanation": "El Océano Ártico es el océano más profundo del mundo, con una profundidad promedio de más de 4000 metros."
+        },
+        {
+            "questionText": "¿Cuál es la montaña más alta de África?",
+            "options": [
+                {
+                    "text": "Monte Kilimanjaro",
+                    "correct": true
+                },
+                {
+                    "text": "Monte Everest"
+                },
+                {
+                    "text": "Monte Elbrus"
+                },
+                {
+                    "text": "Monte Aconcagua"
+                }
+            ],
+            "explanation": "El Monte Kilimanjaro es la montaña más alta de África, con una altura de aproximadamente 5895 metros sobre el nivel del mar."
+        },
+        {
+            "questionText": "¿Cuál es el animal terrestre más rápido del mundo?",
+            "options": [
+                {
+                    "text": "León"
+                },
+                {
+                    "text": "Guepardo",
+                    "correct": true
+                },
+                {
+                    "text": "Caballo"
+                },
+                {
+                    "text": "Leopardo"
+                }
+            ],
+            "explanation": "El guepardo es el animal terrestre más rápido del mundo, pudiendo alcanzar velocidades de hasta 110 km/h en carreras cortas."
+        },
+        {
+            "questionText": "¿Cuál es la capital de Australia?",
+            "options": [
+                {
+                    "text": "Melbourne"
+                },
+                {
+                    "text": "Canberra",
+                    "correct": true
+                },
+                {
+                    "text": "Sídney"
+                },
+                {
+                    "text": "Brisbane"
+                }
+            ],
+            "explanation": "Canberra es la capital de Australia, ubicada en el Territorio de la Capital Australiana y elegida como sede del gobierno federal en 1908."
+        },
+        {
+            "questionText": "¿Quién fue el primer presidente de los Estados Unidos?",
+            "options": [
+                {
+                    "text": "Thomas Jefferson"
+                },
+                {
+                    "text": "John Adams"
+                },
+                {
+                    "text": "Abraham Lincoln"
+                },
+                {
+                    "text": "George Washington",
+                    "correct": true
+                }
+            ],
+            "explanation": "George Washington fue el primer presidente de los Estados Unidos, ejerciendo el cargo desde 1789 hasta 1797."
+        },
+        {
+            "questionText": "¿Cuál es el río más largo de Europa?",
+            "options": [
+                {
+                    "text": "Río Volga",
+                    "correct": true
+                },
+                {
+                    "text": "Río Danubio"
+                },
+                {
+                    "text": "Río Rin"
+                },
+                {
+                    "text": "Río Támesis"
+                }
+            ],
+            "explanation": "El río Volga es el más largo de Europa, con una longitud de aproximadamente 3,530 kilómetros."
+        },
+        {
+            "questionText": "¿Quién pintó la obra 'La noche estrellada'?",
+            "options": [
+                {
+                    "text": "Pablo Picasso"
+                },
+                {
+                    "text": "Vincent van Gogh",
+                    "correct": true
+                },
+                {
+                    "text": "Leonardo da Vinci"
+                },
+                {
+                    "text": "Michelangelo"
+                }
+            ],
+            "explanation": "'La noche estrellada' fue pintada por Vincent van Gogh, uno de los más grandes artistas postimpresionistas."
+        },
+        {
+            "questionText": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+            "options": [
+                {
+                    "text": "1776",
+                    "correct": true
+                },
+                {
+                    "text": "1789"
+                },
+                {
+                    "text": "1812"
+                },
+                {
+                    "text": "1836"
+                }
+            ],
+            "explanation": "La Declaración de Independencia de los Estados Unidos fue firmada el 4 de julio de 1776, proclamando la independencia de las Trece Colonias de Gran Bretaña."
+        },
+        {
+            "questionText": "¿Cuál es el animal más venenoso del mundo?",
+            "options": [
+                {
+                    "text": "Serpiente de coral"
+                },
+                {
+                    "text": "Araña de recluse"
+                },
+                {
+                    "text": "Pez piedra",
+                    "correct": true
+                },
+                {
+                    "text": "Escorpión amarillo"
+                }
+            ],
+            "explanation": "El pez piedra es el animal más venenoso del mundo, su veneno puede ser letal para los seres humanos."
+        },
+        {
+            "questionText": "¿Cuál es el proceso químico que convierte el azúcar en alcohol?",
+            "options": [
+                {
+                    "text": "Fermentación",
+                    "correct": true
+                },
+                {
+                    "text": "Destilación"
+                },
+                {
+                    "text": "Evaporación"
+                },
+                {
+                    "text": "Oxidación"
+                }
+            ],
+            "explanation": "La fermentación es el proceso químico que convierte el azúcar en alcohol y dióxido de carbono."
+        },
+        {
+            "questionText": "¿Cuál es la capital de España?",
+            "options": [
+                {
+                    "text": "Barcelona"
+                },
+                {
+                    "text": "Madrid",
+                    "correct": true
+                },
+                {
+                    "text": "Sevilla"
+                },
+                {
+                    "text": "Valencia"
+                }
+            ],
+            "explanation": "Madrid es la capital de España, ubicada en el centro del país y conocida por su rica historia y cultura."
+        },
+        {
+            "questionText": "¿En qué continente se encuentra el río Nilo?",
+            "options": [
+                {
+                    "text": "África",
+                    "correct": true
+                },
+                {
+                    "text": "Asia"
+                },
+                {
+                    "text": "Europa"
+                },
+                {
+                    "text": "Oceanía"
+                }
+            ],
+            "explanation": "El río Nilo se encuentra en el continente africano, siendo uno de los ríos más largos del mundo."
+        },
+        {
+            "questionText": "¿Cuál es el país más grande del mundo en términos de área terrestre?",
+            "options": [
+                {
+                    "text": "Estados Unidos"
+                },
+                {
+                    "text": "Rusia",
+                    "correct": true
+                },
+                {
+                    "text": "China"
+                },
+                {
+                    "text": "Canadá"
+                }
+            ],
+            "explanation": "Rusia es el país más grande del mundo en términos de área terrestre, abarcando gran parte de Europa y Asia."
+        },
+        {
+            "questionText": "¿Quién es considerado el padre de la computación?",
+            "options": [
+                {
+                    "text": "Bill Gates"
+                },
+                {
+                    "text": "Alan Turing",
+                    "correct": true
+                },
+                {
+                    "text": "Steve Jobs"
+                },
+                {
+                    "text": "Tim Berners-Lee"
+                }
+            ],
+            "explanation": "Alan Turing es considerado el padre de la computación, siendo pionero en el desarrollo de la computación moderna y en la creación de la máquina Turing."
+        },
+        {
+            "questionText": "¿Cuál es el país más poblado del mundo?",
+            "options": [
+                {
+                    "text": "India"
+                },
+                {
+                    "text": "Estados Unidos"
+                },
+                {
+                    "text": "China",
+                    "correct": true
+                },
+                {
+                    "text": "Brasil"
+                }
+            ],
+            "explanation": "China es el país más poblado del mundo, con una población de más de mil millones de habitantes."
+        },
+        {
+            "questionText": "¿Quién fue el primer ser humano en orbitar la Tierra?",
+            "options": [
+                {
+                    "text": "Yuri Gagarin",
+                    "correct": true
+                },
+                {
+                    "text": "Neil Armstrong"
+                },
+                {
+                    "text": "Buzz Aldrin"
+                },
+                {
+                    "text": "John Glenn"
+                }
+            ],
+            "explanation": "Yuri Gagarin fue el primer ser humano en orbitar la Tierra, lo hizo a bordo de la nave espacial Vostok 1 el 12 de abril de 1961."
+        },
+        {
+            "questionText": "¿Cuál es el océano más grande del mundo?",
+            "options": [
+                {
+                    "text": "Océano Pacífico",
+                    "correct": true
+                },
+                {
+                    "text": "Océano Atlántico"
+                },
+                {
+                    "text": "Océano Índico"
+                },
+                {
+                    "text": "Océano Ártico"
+                }
+            ],
+            "explanation": "El Océano Pacífico es el océano más grande y profundo del mundo, cubriendo más del 30% de la superficie de la Tierra."
+        },
+        {
+            "questionText": "¿Cuál es el océano que se encuentra entre Europa y América?",
+            "options": [
+                {
+                    "text": "Océano Pacífico"
+                },
+                {
+                    "text": "Océano Índico"
+                },
+                {
+                    "text": "Océano Atlántico",
+                    "correct": true
+                },
+                {
+                    "text": "Océano Ártico"
+                }
+            ],
+            "explanation": "El Océano Atlántico es el océano que se encuentra entre Europa y América, siendo el segundo más grande del mundo."
+        },
+        {
+            "questionText": "¿Cuál es el metal más abundante en la corteza terrestre?",
+            "options": [
+                {
+                    "text": "Hierro"
+                },
+                {
+                    "text": "Aluminio",
+                    "correct": true
+                },
+                {
+                    "text": "Oro"
+                },
+                {
+                    "text": "Plata"
+                }
+            ],
+            "explanation": "El aluminio es el metal más abundante en la corteza terrestre, constituyendo aproximadamente el 8% de la misma."
+        },
+        {
+            "questionText": "¿Cuál es el proceso por el cual las plantas producen su propio alimento?",
+            "options": [
+                {
+                    "text": "Fotosíntesis",
+                    "correct": true
+                },
+                {
+                    "text": "Respiración"
+                },
+                {
+                    "text": "Digestión"
+                },
+                {
+                    "text": "Evaporación"
+                }
+            ],
+            "explanation": "La fotosíntesis es el proceso por el cual las plantas utilizan la luz solar para convertir el dióxido de carbono y el agua en glucosa y oxígeno."
+        },
+        {
+            "questionText": "¿Cuál es el hueso más largo del cuerpo humano?",
+            "options": [
+                {
+                    "text": "Húmero"
+                },
+                {
+                    "text": "Fémur",
+                    "correct": true
+                },
+                {
+                    "text": "Tibia"
+                },
+                {
+                    "text": "Fíbula"
+                }
+            ],
+            "explanation": "El fémur es el hueso más largo y fuerte del cuerpo humano, se encuentra en la parte superior de la pierna."
+        },
+        {
+            "questionText": "¿Cuál es el planeta más grande del sistema solar?",
+            "options": [
+                {
+                    "text": "Júpiter",
+                    "correct": true
+                },
+                {
+                    "text": "Saturno"
+                },
+                {
+                    "text": "Neptuno"
+                },
+                {
+                    "text": "Urano"
+                }
+            ],
+            "explanation": "Júpiter es el planeta más grande de nuestro sistema solar, con un diámetro aproximadamente 11 veces mayor que el de la Tierra."
+        },
+        {
+            "questionText": "¿Qué instrumento se utiliza para medir la presión atmosférica?",
+            "options": [
+                {
+                    "text": "Termómetro"
+                },
+                {
+                    "text": "Higrómetro"
+                },
+                {
+                    "text": "Barómetro",
+                    "correct": true
+                },
+                {
+                    "text": "Anemómetro"
+                }
+            ],
+            "explanation": "El barómetro se utiliza para medir la presión atmosférica. Un barómetro de mercurio es uno de los tipos más comunes."
+        },
+        {
+            "questionText": "¿Cuál es el rango de frecuencia del sonido que el oído humano puede escuchar?",
+            "options": [
+                {
+                    "text": "20-20,000 hercios",
+                    "correct": true
+                },
+                {
+                    "text": "50-50,000 hercios"
+                },
+                {
+                    "text": "10-15,000 hercios"
+                },
+                {
+                    "text": "30-25,000 hercios"
+                }
+            ],
+            "explanation": "El rango de frecuencia del sonido que el oído humano puede escuchar va desde aproximadamente 20 hasta 20,000 hercios."
+        }
+    ]
+}

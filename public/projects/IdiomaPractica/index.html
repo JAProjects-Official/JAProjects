@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Vocabulario Francés-Español</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Main Game Area -->
+            <div class="col-lg-8 col-md-7">
+                <div class="game-container">
+                    <header class="text-center mb-5">
+                        <h1 class="display-4 fw-bold text-primary">
+                            <i class="fas fa-language me-3"></i>
+                            Vocabulario Francés-Español
+                        </h1>
+                        <p class="lead text-muted">Practica tu vocabulario con ejercicios interactivos</p>
+                    </header>
+
+                    <!-- Progress Bar -->
+                    <div class="progress mb-4" style="height: 10px;">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 0%" id="progressBar"></div>
+                    </div>
+
+                    <!-- French Word Display -->
+                    <div class="word-card text-center mb-5">
+                        <div class="card shadow-lg border-0">
+                            <div class="card-body py-5">
+                                <div class="d-flex align-items-center justify-content-center mb-3">
+                                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='24' viewBox='0 0 32 24'%3E%3Crect width='10.67' height='24' x='0' fill='%23002395'/%3E%3Crect width='10.67' height='24' x='10.67' fill='%23FFFFFF'/%3E%3Crect width='10.67' height='24' x='21.33' fill='%23ED2939'/%3E%3C/svg%3E" alt="Francia" class="me-2">
+
+                                    <span class="badge bg-primary">Francés</span>
+                                </div>
+                                <h2 class="display-5 fw-bold text-dark mb-3" id="frenchWord">Cargando...</h2>
+                                <p class="text-muted">Selecciona la traducción correcta en español</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Answer Options -->
+                    <div class="options-container mb-4" id="optionsContainer">
+                        <!-- Options will be dynamically generated -->
+                    </div>
+
+                    <!-- Feedback Message -->
+                    <div class="alert-container mb-4" id="alertContainer" style="display: none;">
+                        <!-- Feedback messages will appear here -->
+                    </div>
+
+                    <!-- Next Button -->
+                    <!-- Keyboard Instructions -->
+                    <div class="text-center mb-3">
+                        <small class="text-muted">
+                            <i class="fas fa-keyboard me-1"></i>
+                            Sin un ratón: selecciona con las teclas de 1 a 6
+                        </small>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-primary btn-lg px-5" id="nextButton" style="display: none;">
+                            <i class="fas fa-arrow-right me-2"></i>
+                            Siguiente palabra
+                        </button>
+                    </div>
+
+                    <!-- Round Summary Custom Modal -->
+                    <div class="custom-modal" id="summaryModal" style="display: none;">
+                        <div class="custom-modal-content">
+                            <div class="custom-modal-header">
+                                <h5 class="custom-modal-title">
+                                    <i class="fas fa-trophy me-2"></i>
+                                    Resumen de la Ronda
+                                </h5>
+                                <button type="button" class="custom-close-btn" id="closeModalButton">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                            <div class="custom-modal-body" id="summaryContent">
+                                <!-- Summary content will be generated here -->
+                            </div>
+                            <div class="custom-modal-footer">
+                                <button type="button" class="btn btn-secondary" id="closeModalButton2">
+                                    <i class="fas fa-times me-2"></i>
+                                    Cerrar
+                                </button>
+                                <button type="button" class="btn btn-primary" id="newRoundButton">
+                                    <i class="fas fa-redo me-2"></i>
+                                    Nueva Ronda
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics Panel -->
+            <div class="col-lg-4 col-md-5">
+                <div class="stats-panel">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-header bg-light border-0">
+                            <h5 class="mb-0 text-center">
+                                <i class="fas fa-chart-bar me-2 text-primary"></i>
+                                Estadísticas
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <!-- Current Round Stats -->
+                            <div class="stat-item mb-4">
+                                <h6 class="text-muted mb-2">Ronda Actual</h6>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Pregunta:</span>
+                                    <span class="fw-bold" id="currentQuestion">0 de 10</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Correctas:</span>
+                                    <span class="fw-bold text-success" id="currentCorrect">0</span>
+                                </div>
+                            </div>
+
+                            <!-- Overall Stats -->
+                            <div class="stat-item mb-4">
+                                <h6 class="text-muted mb-2">Total</h6>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Intentos:</span>
+                                    <span class="fw-bold" id="totalAttempts">0</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Correctas:</span>
+                                    <span class="fw-bold text-success" id="totalCorrect">0</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Precisión:</span>
+                                    <span class="fw-bold text-primary" id="accuracy">0%</span>
+                                </div>
+                            </div>
+
+                            <!-- Recent Words -->
+                            <div class="stat-item">
+                                <h6 class="text-muted mb-3">Palabras Recientes</h6>
+                                <div id="recentWords" class="recent-words-list">
+                                    <p class="text-muted text-center">Aún no hay palabras practicadas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/vocabulary.js"></script>
+    <script src="static/js/app.js"></script>
+</body>
+</html>
