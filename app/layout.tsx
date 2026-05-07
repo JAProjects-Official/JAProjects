@@ -19,28 +19,34 @@ export const metadata: Metadata = {
     default: 'JAProjects — Iván Jurado Álvarez | Desarrollador Web Full Stack',
     template: '%s | JAProjects',
   },
+
   description:
-    'Desarrollador web especializado en .NET Core, PHP, JavaScript y SQL. Creando soluciones empresariales escalables, APIs robustas y aplicaciones web modernas.',
+    'Desarrollador web especializado en .NET Core, PHP, JavaScript y SQL. Creando soluciones empresariales escalables y aplicaciones modernas.',
 
   keywords: [
     '.NET Core',
     'PHP',
     'JavaScript',
-    'SQL Server',
+    'SQL',
     'MySQL',
     'Desarrollador Web',
     'Full Stack',
-    'REST API',
-    'WebSockets',
     'España',
     'Freelance',
   ],
 
-  authors: [{ name: 'Iván Jurado Álvarez', url: 'https://japrojects.vercel.app' }],
+  authors: [
+    { name: 'Iván Jurado Álvarez', url: 'https://japrojects.vercel.app' },
+  ],
+
   creator: 'Iván Jurado Álvarez',
 
-  // 🔥 IMPORTANTE: dominio correcto de Vercel
   metadataBase: new URL('https://japrojects.vercel.app'),
+
+  // ✅ GOOGLE SEARCH CONSOLE VERIFICATION
+  verification: {
+    google: 'XcmxckRAo4zZdcDlEm0Mm2GKUsrBiwb7xmNsFdy0e9M',
+  },
 
   icons: {
     icon: '/images/logo-dark.png',
@@ -83,7 +89,7 @@ export default function RootLayout({
         >
           {children}
 
-          {/* 📊 VERCEL ANALYTICS */}
+          {/* VERCEL ANALYTICS */}
           <Analytics />
         </ThemeProvider>
       </body>
