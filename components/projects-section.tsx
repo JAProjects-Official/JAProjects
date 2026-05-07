@@ -36,7 +36,7 @@ const projects: Project[] = [
     image: '/images/idioma.png',
     tech: ['JavaScript', 'HTML/CSS'],
     tags: ['JavaScript'],
-    liveUrl: '/projects/idiomaPractica/index.html',
+    liveUrl: '/projects/IdiomaPractica/index.html',
     featured: true,
     label: 'projects.personal',
   },
