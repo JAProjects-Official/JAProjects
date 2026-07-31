@@ -7,8 +7,8 @@ import { useLanguage } from '@/hooks/use-language'
 
 type Project = {
   id: number
-  title: string
-  description: string
+  titleKey: string
+  descriptionKey: string
   image: string
   tech: string[]
   tags: string[]
@@ -18,10 +18,10 @@ type Project = {
 }
 
 const projects: Project[] = [
-{
+  {
     id: 1,
-    title: 'Sistema CRUD con Laravel',
-    description: 'Aplicación Laravel con autenticación, gestión de registros y panel administrativo. Construida para demostrar prácticas de CRUD y seguridad en un entorno PHP moderno.',
+    titleKey: 'projects.crud.title',
+    descriptionKey: 'projects.crud.description',
     image: '/images/CRUDlaravel.png',
     tech: ['PHP', 'MySQL', 'HTML/CSS'],
     tags: ['PHP', 'SQL'],
@@ -31,8 +31,8 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'Aplicación de práctica de idiomas',
-    description: 'Plataforma de práctica de idiomas con ejercicios interactivos y contenido educativo. Diseñada para reforzar vocabulario y comprensión desde cualquier dispositivo.',
+    titleKey: 'projects.language.title',
+    descriptionKey: 'projects.language.description',
     image: '/images/idioma.png',
     tech: ['JavaScript', 'HTML/CSS'],
     tags: ['JavaScript'],
@@ -40,10 +40,10 @@ const projects: Project[] = [
     featured: true,
     label: 'projects.personal',
   },
-    {
+  {
     id: 3,
-    title: 'Gestor de tareas en PHP',
-    description: 'Aplicación de gestión de tareas con backend PHP y base de datos MySQL. Funcionalidades incluidas: creación, edición, eliminación y búsqueda de tareas con interfaz limpia y responsiva.',
+    titleKey: 'projects.todo.title',
+    descriptionKey: 'projects.todo.description',
     image: '/images/tareas.png',
     tech: ['PHP', 'MySQL', 'JavaScript', 'HTML/CSS'],
     tags: ['PHP', 'SQL'],
@@ -53,8 +53,8 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'Aplicación de cuestionarios en Angular',
-    description: 'Cuestionario interactivo construido en Angular con navegación fluida y respuestas en tiempo real. Ideal para evaluar conocimiento con diseño limpio y experiencia de usuario moderna.',
+    titleKey: 'projects.quiz.title',
+    descriptionKey: 'projects.quiz.description',
     image: '/images/quiz.PNG',
     tech: ['JavaScript', 'HTML/CSS'],
     tags: ['JavaScript'],
@@ -64,16 +64,15 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: 'Conversor de texto a voz',
-    description: 'Herramienta de lectura de texto que convierte contenido en voz en tiempo real. Interfaz accesible, controles de reproducción y compatibilidad con múltiples navegadores.',
+    titleKey: 'projects.tts.title',
+    descriptionKey: 'projects.tts.description',
     image: '/images/Conversor-texto-a-voz.png',
     tech: ['JavaScript', 'HTML/CSS'],
     tags: ['JavaScript'],
     liveUrl: '/projects/LecturaTexto/index.html',
     featured: false,
     label: 'projects.personal',
-  }
-,
+  },
 ]
 
 const filters = [
@@ -168,7 +167,7 @@ function ProjectCard({ project, large }: { project: Project; large: boolean }) {
       <div className={`relative overflow-hidden ${large ? 'h-52' : 'h-40'}`}>
         <Image
           src={project.image}
-          alt={`${project.title} screenshot`}
+          alt={`${t(project.titleKey)} screenshot`}
           width={1280}
           height={720}
           className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -179,7 +178,7 @@ function ProjectCard({ project, large }: { project: Project; large: boolean }) {
           {project.featured && (
             <div className="flex items-center gap-1 px-2 py-1 rounded-md bg-primary/20 border border-primary/40 text-primary text-xs font-medium backdrop-blur-sm">
               <Star className="w-3 h-3 fill-current" />
-              Featured
+              {t('projects.featured')}
             </div>
           )}
           <div className="px-2 py-1 rounded-md bg-secondary/80 border border-border text-muted-foreground text-xs font-medium backdrop-blur-sm">
@@ -191,10 +190,10 @@ function ProjectCard({ project, large }: { project: Project; large: boolean }) {
       {/* Content */}
       <div className="p-5 flex flex-col flex-1">
         <h3 className={`font-semibold text-foreground mb-2 ${large ? 'text-xl' : 'text-base'}`}>
-          {project.title}
+          {t(project.titleKey)}
         </h3>
         <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-1 text-pretty">
-          {project.description}
+          {t(project.descriptionKey)}
         </p>
 
         {/* Tech badges */}

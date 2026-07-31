@@ -55,6 +55,22 @@ const translations: Record<string, Record<Language, string>> = {
   'projects.client': { es: 'Proyecto cliente', en: 'Client Project' },
   'projects.noResults': { es: 'No hay proyectos con este filtro.', en: 'No projects match this filter.' },
   'projects.liveDemo': { es: 'Ver demo', en: 'Live Demo' },
+  'projects.featured': { es: 'Destacado', en: 'Featured' },
+  // Project 1: Laravel CRUD
+  'projects.crud.title': { es: 'Sistema CRUD con Laravel', en: 'Laravel CRUD System' },
+  'projects.crud.description': { es: 'Aplicación Laravel con autenticación, gestión de registros y panel administrativo. Construida para demostrar prácticas de CRUD y seguridad en un entorno PHP moderno.', en: 'Laravel application with authentication, record management and an admin panel. Built to demonstrate CRUD practices and security in a modern PHP environment.' },
+  // Project 2: Language practice
+  'projects.language.title': { es: 'Aplicación de práctica de idiomas', en: 'Language Practice App' },
+  'projects.language.description': { es: 'Plataforma de práctica de idiomas con ejercicios interactivos y contenido educativo. Diseñada para reforzar vocabulario y comprensión desde cualquier dispositivo.', en: 'Language practice platform with interactive exercises and educational content. Designed to reinforce vocabulary and comprehension from any device.' },
+  // Project 3: PHP Task Manager
+  'projects.todo.title': { es: 'Gestor de tareas en PHP', en: 'PHP Task Manager' },
+  'projects.todo.description': { es: 'Aplicación de gestión de tareas con backend PHP y base de datos MySQL. Funcionalidades incluidas: creación, edición, eliminación y búsqueda de tareas con interfaz limpia y responsiva.', en: 'Task management app with a PHP backend and MySQL database. Features include: creating, editing, deleting and searching tasks with a clean, responsive interface.' },
+  // Project 4: Angular quiz
+  'projects.quiz.title': { es: 'Aplicación de cuestionarios en Angular', en: 'Angular Quiz App' },
+  'projects.quiz.description': { es: 'Cuestionario interactivo construido en Angular con navegación fluida y respuestas en tiempo real. Ideal para evaluar conocimiento con diseño limpio y experiencia de usuario moderna.', en: 'Interactive quiz built in Angular with smooth navigation and real-time answers. Ideal for assessing knowledge with a clean design and a modern user experience.' },
+  // Project 5: Text-to-speech
+  'projects.tts.title': { es: 'Conversor de texto a voz', en: 'Text-to-Speech Converter' },
+  'projects.tts.description': { es: 'Herramienta de lectura de texto que convierte contenido en voz en tiempo real. Interfaz accesible, controles de reproducción y compatibilidad con múltiples navegadores.', en: 'Text reading tool that converts content into speech in real time. Accessible interface, playback controls and multi-browser compatibility.' },
 
   // Stack Section
   'stack.section': { es: 'Tecnologías', en: 'Tech Stack' },
