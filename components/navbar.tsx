@@ -11,6 +11,7 @@ import { ThemeToggle } from './theme-toggle'
 const navLinkKeys = [
   { key: 'nav.about', href: '#about' },
   { key: 'nav.projects', href: '#projects' },
+  { key: 'nav.apps', href: '#mobile-apps' },
   { key: 'nav.stack', href: '#stack' },
   { key: 'nav.experience', href: '#experience' },
   { key: 'nav.contact', href: '#contact' },
@@ -110,7 +111,7 @@ export function Navbar() {
         </button>
 
         {/* Desktop nav */}
-        <ul className="hidden md:flex items-center gap-1" role="list">
+        <ul className="hidden lg:flex items-center gap-1" role="list">
           {navLinkKeys.map((link) => {
             const id = link.href.replace('#', '')
             const isActive = activeSection === id
@@ -119,7 +120,7 @@ export function Navbar() {
               <li key={link.href}>
                 <button
                   onClick={() => handleNavClick(link.href)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                  className={`whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                     isActive
                       ? 'text-primary bg-primary/10'
                       : 'text-muted-foreground hover:text-foreground hover:bg-secondary'
@@ -133,7 +134,7 @@ export function Navbar() {
         </ul>
 
         {/* Theme + Language + CTA */}
-        <div className="hidden md:flex items-center gap-2">
+        <div className="hidden lg:flex items-center gap-2">
           <ThemeToggle />
           <LanguageSwitcher />
 
@@ -148,7 +149,7 @@ export function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setIsMobileOpen(!isMobileOpen)}
-          className="md:hidden p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
+          className="lg:hidden p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
           aria-label={isMobileOpen ? 'Close menu' : 'Open menu'}
           aria-expanded={isMobileOpen}
         >
@@ -162,7 +163,7 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {isMobileOpen && (
-        <div className="md:hidden border-t border-border bg-background/95 backdrop-blur-xl">
+        <div className="lg:hidden border-t border-border bg-background/95 backdrop-blur-xl">
           <ul className="max-w-6xl mx-auto px-6 py-4 flex flex-col gap-1">
             {navLinkKeys.map((link) => {
               const id = link.href.replace('#', '')

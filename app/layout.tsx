@@ -79,6 +79,7 @@ export default function RootLayout({
     <html
       lang="es"
       className={`${inter.variable} ${jetbrainsMono.variable}`}
+      suppressHydrationWarning
     >
       <body className="font-sans antialiased bg-background">
         <ThemeProvider

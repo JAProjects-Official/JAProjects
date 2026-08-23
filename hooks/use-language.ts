@@ -13,6 +13,7 @@ const translations: Record<string, Record<Language, string>> = {
   // Navigation
   'nav.about': { es: 'Sobre mí', en: 'About' },
   'nav.projects': { es: 'Proyectos', en: 'Projects' },
+  'nav.apps': { es: 'Apps', en: 'Apps' },
   'nav.stack': { es: 'Stack', en: 'Stack' },
   'nav.experience': { es: 'Experiencia', en: 'Experience' },
   'nav.contact': { es: 'Contacto', en: 'Contact' },
@@ -71,6 +72,21 @@ const translations: Record<string, Record<Language, string>> = {
   // Project 5: Text-to-speech
   'projects.tts.title': { es: 'Conversor de texto a voz', en: 'Text-to-Speech Converter' },
   'projects.tts.description': { es: 'Herramienta de lectura de texto que convierte contenido en voz en tiempo real. Interfaz accesible, controles de reproducción y compatibilidad con múltiples navegadores.', en: 'Text reading tool that converts content into speech in real time. Accessible interface, playback controls and multi-browser compatibility.' },
+
+  // Mobile Apps Section
+  'mobile.section': { es: 'Aplicaciones Móviles', en: 'Mobile Apps' },
+  'mobile.title': { es: 'Aplicaciones Android en producción', en: 'Android apps in production' },
+  'mobile.description': { es: 'El mismo enfoque de código limpio y arquitecturas escalables, llevado a Android: aplicaciones completas, de principio a fin, publicadas y en uso real en Google Play.', en: 'The same clean-code, scalable-architecture approach, applied to Android: complete apps, built end to end, published and running on Google Play.' },
+  'mobile.featured': { es: 'Destacado', en: 'Featured' },
+  'mobile.productivity': { es: 'Productividad', en: 'Productivity' },
+  'mobile.game': { es: 'Juego', en: 'Game' },
+  'mobile.viewOnPlayStore': { es: 'Ver en Google Play', en: 'View on Google Play' },
+  'mobile.timeplan.name': { es: 'TimePlan', en: 'TimePlan' },
+  'mobile.timeplan.description': { es: 'Registra tus jornadas, fichajes y descansos. Exporta a PDF o CSV. Funciona sin conexión.', en: 'Track your work hours, clock-ins and breaks. Export to PDF or CSV. Works fully offline.' },
+  'mobile.lumivex.name': { es: 'Flappy LUMIVEX', en: 'Flappy LUMIVEX' },
+  'mobile.lumivex.description': { es: 'Arcade de un toque: esquiva obstáculos y bate tu récord.', en: 'One-tap arcade: dodge obstacles and beat your high score.' },
+  'mobile.blockpuzzle.name': { es: 'Block Puzzle+', en: 'Block Puzzle+' },
+  'mobile.blockpuzzle.description': { es: 'Puzzle 8x8 con 3 modos, niveles y misiones diarias.', en: '8x8 puzzle with 3 modes, levels, and daily missions.' },
 
   // Stack Section
   'stack.section': { es: 'Tecnologías', en: 'Tech Stack' },
